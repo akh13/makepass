@@ -18,15 +18,12 @@ public class Makepass {
             name = new String(console.readPassword("Please enter your password: "));
             key = encrypt(name);
             System.out.println(key);
-
         }
 
     public static String generateAESKey(Integer numBits) throws Exception {
-
         KeyGenerator keyGenerator = KeyGenerator.getInstance("AES");
         keyGenerator.init(numBits);
         SecretKey key = keyGenerator.generateKey();
-
         return byteArrayToHexString(key.getEncoded());
     }
 
@@ -67,5 +64,4 @@ public class Makepass {
         }
         return b;
     }
-
 }
