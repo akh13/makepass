@@ -8,7 +8,7 @@ Due to US restrictions on cryptography, stronger forms of encryption cannot be e
 
 [Oracle](http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html)
 
-I feel bad for the NSA agent tasked with following me. They probably think, "Wow, where does someone keep all of those NES games and bottles of Diet Dr Pepper."
+I feel bad for the NSA agent tasked with following me. They probably think, "Wow, where does someone keep all of those NES games and bottles of Diet Dr Pepper?"
 
 If you ever see an invalidkeyexception, that's what is likely the cause. If you use these two .jar files and still get an invalidkeyexception,
 this is likely because your key is...invalid. Make it divisible by two, and at least 64 characters in length.
