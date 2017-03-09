@@ -1,7 +1,7 @@
 # makepass
 This is a java-based command-line utility used to generate secure, encrypted passwords using AES.
 
-# how to use.
+# How Do I Use This?
 
 The first thing you need to do is make sure that you get the extended security jar files for your particular version of Java from Oracle.
 Due to US restrictions on cryptography, stronger forms of encryption cannot be exported. For this reason you must download a few files:
