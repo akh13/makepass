@@ -16,9 +16,12 @@ this is likely because your key is...invalid. Make it divisible by two, and at l
 The .class is there for demonstration purposes only. To run this thing from the command line:
 
 > warhammer$ java Makepass
-Type a decent password. '12345' is not a good idea.
-F71CA771F5F913A44FD42A9BD2C6B943
+
+Type a decent password. '12345' is not a good idea. The utility will then return your encrypted key:
+
+> F71CA771F5F913A44FD42A9BD2C6B943
 > Here's the crypto key you asked for! Keep it safe.
+
 Please keep in mind, the .class here was put together with an AES_KEY of 0-10 a bunch of times. **Do not use it without changing the AES_KEY variable.**
 Once you change the key, save it and run `javac` over the .java file to make a version that can run as above.
 
