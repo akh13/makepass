@@ -20,6 +20,7 @@ The .class is there for demonstration purposes only. To run this thing from the 
 Type a decent password. '12345' is not a good idea. The utility will then return your encrypted key:
 
 > F71CA771F5F913A44FD42A9BD2C6B943
+
 > Here's the crypto key you asked for! Keep it safe.
 
 Please keep in mind, the .class here was put together with an AES_KEY of 0-10 a bunch of times. **Do not use it without changing the AES_KEY variable.**
